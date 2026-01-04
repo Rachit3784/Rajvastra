@@ -4,7 +4,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import * as Keychain from 'react-native-keychain';
 import RazorpayCheckout from 'react-native-razorpay'; 
 export const BASE_URL = "http://10.147.167.121:4333";
-const Razor_Pay_API_KEY="rzp_test_Rz3CtyC6vj8UaF"
+const Razor_Pay_API_KEY=""
 const SECURE_STORE_KEY = 'userToken';
 
 const saveToken = async (token) => {
